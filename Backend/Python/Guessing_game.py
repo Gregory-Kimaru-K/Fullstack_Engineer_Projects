@@ -51,13 +51,19 @@ def stop():
         if tired not in ('y', 'n'):
             print("Invalid choice")
 
+        #Continue with the game
+
         if tired == 'y':
             return True
         
+        #exit the game
+
         if tired == 'n':
             return False
 
 game_on = True
+
+#controls the game according to the user's wants
 
 while game_on:
     display_game()
