@@ -1,0 +1,7 @@
+'''This is test pylint'''
+def my_func():
+    a = 2
+    b = 3
+
+    print (a)
+    print (b)

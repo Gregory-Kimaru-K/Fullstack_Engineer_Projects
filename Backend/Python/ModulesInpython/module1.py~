@@ -1,0 +1,6 @@
+from mainmodule import main.main
+from mainmodule.submodule import submod.sub
+
+sub()
+main()
+
