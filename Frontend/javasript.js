@@ -19,5 +19,5 @@ function decrement() {
 
 function reset() {
     document.getElementById("count-el").innerText = zero
-    count = 0
+    count = 00
 }
